@@ -1,0 +1,91 @@
+#contact{
+	background-image:url(../img/footer-bg.jpg);
+	padding: 50px 0px;
+	color: #fff;
+	background-size: cover;
+  background-repeat: no-repeat;
+	h2{
+		font-size: 30px;
+		text-transform: uppercase;
+	}
+	h6{
+		font-size: 15px;
+		opacity: .6;
+		padding-bottom: 3%;
+	}
+	p{
+		font-size: 14px;
+		font-weight: 400;
+		opacity: .5;
+	}
+	.get-in{
+		h4{
+			font-size: 16px;
+			font-weight: bold;
+			padding: 10px 0px;
+			text-transform: uppercase;
+		}
+		img{
+			width: 20px;
+			color: #fff;
+		}
+		address{
+			opacity: .8;
+			font-size: 14px;
+			i{
+				font-size: 20px;
+				padding-right: 10px;
+			}
+		}
+		address.mail{
+			i{
+				font-size: 15px;
+			}		
+		}
+	}
+	.form{
+		h4{
+			font-size: 16px;
+			font-weight: bold;
+			padding: 10px 0px;
+			text-transform: uppercase;
+		}
+		.form{
+			input{
+				padding: 10px 5px;
+				font-size: 20px;
+				background: #151e22;
+				border: 1px solid #8dc440;
+				border-radius: 0px;
+				&:focus{
+					box-shadow: none;
+				}
+			}
+			textarea{
+				background: #151e22;
+				border: 1px solid #8dc440;
+				border-radius: 0px;
+				&:focus{
+					box-shadow: none;
+				}
+			}
+		}
+	}
+	button{
+		padding: 10px 20px;
+		text-transform: uppercase;
+		border: none;
+		background: #8dc440;
+		border-radius: 5px;
+		color: #fff;
+		cursor: pointer;
+		&:focus{
+			outline:none;
+		}
+	}
+}
+button{
+	&:focus{
+		outline:none;
+	}
+}

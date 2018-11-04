@@ -1,0 +1,40 @@
+@import 'variables';
+#exam{
+	background: #f2f2f2;
+	@extend #words;
+	.container>.row{
+		.word-details{
+			background: #fff;
+			//border-radius: 10px;
+			img{
+				//border-radius: 10px 10px 0px 0px;
+			}
+			div.time{
+				display: flex;
+				align-items: center;
+				padding: 20px 10px 0px;
+				p{
+					font-size: 13px ;
+					font-weight: 700;
+					padding: 0px 10px;
+					// margin-bottom: 2px;
+					opacity: .5;
+				}
+			}
+			h3{
+				text-transform: uppercase;
+				font-size: 20px;
+			}
+			p.read-more{
+				a{
+					text-transform: uppercase;
+					font-weight: 700;
+					color: black;
+					&:hover{
+						text-decoration: none;
+					}
+				}
+			}
+		}
+	}
+}
