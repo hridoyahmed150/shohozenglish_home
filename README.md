@@ -15,12 +15,12 @@ build tools like gulp and grunt. The newest and most build tool is webpack
     live-reload because it is `virtual`
 * We use git and github for version control
   - [git
-    intro](https://github.com/hridoyahmed150/shohozenglishgit.md)
+    intro](https://github.com/hridoyahmed150/shohozenglish_home.md)
 
 ## Install Instructions
 * Clone repo 
 
-`$ git clone https://github.com/hridoyahmed150/shohozenglish.git`
+`$ git clone https://github.com/hridoyahmed150/shohozenglish_home.git`
 
 * `$ cd shohozenglish`
 
